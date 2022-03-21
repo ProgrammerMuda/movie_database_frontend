@@ -1,15 +1,9 @@
-import logo from './logo.svg';
-import './Style.css';
-import Header from './Components/Header';
-import Main from './Components/Main';
-import Footer from './Components/Footer';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div>
-      <Header />
-      <Main />
-      <Footer />
+      <Home />
     </div>
   );
 }
